@@ -1,14 +1,55 @@
+body {
+background-color: #FFF;
+}
+
 h1, h2, h3, p {
-font-family: Arial;
-font-color: #000;
+font-family: Arial, sans-serif;
+color: #000;
 }
 
 h1 {
-font-size: 96;
+font-size: 72;
+text-align: center;
+}
 
-h2{
-font-size: 56;
-
-h3{
+h2 {
 font-size: 48;
+text-align: center;
+}
+
+h3 {
+font-size: 24;
+text-align: center;
+}
+
+p, a {
+font-size: 18;
+text-align: left;
+}
+
+a {
+color: #FFF;
+text-align: center;
+}
+
+a:link    { color: blue; }
+a:visited { color: red; }
+a:hover   { color: green; }
+a:active  { color: orange; }
+
+hr {
+  height: 4px;
+  border: 4px #000;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+li {
+font-family: "Arial Italic", Arial;
+}
+
+knockout {
+background-color: #000;
+color: #FFF;
 }
