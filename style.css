@@ -40,9 +40,10 @@ a:active  { color: orange; }
 
 hr {
   height: 4px;
+  color: #000;
   border: 4px #000;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 
