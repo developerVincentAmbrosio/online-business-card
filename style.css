@@ -5,6 +5,7 @@
 body {
 background-color: #FFF;
 width: 50%;
+height: 100%;
 }
 
 h1, h2, h3, p, a {
@@ -34,7 +35,6 @@ text-align: left;
 }
 
 a {
-color: #FFF;
 text-align: center;
 }
 
@@ -48,6 +48,7 @@ hr {
   border: 4px #000;
   margin-top: 100px;
   margin-bottom: 100px;
+  color: #000;
 }
 
 
