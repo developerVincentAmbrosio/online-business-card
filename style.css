@@ -6,7 +6,7 @@ body {
 background-color: #FFF;
 width: 50%;
 height: 100%;
-foat: center;
+margin: auto;
 }
 
 h1, h2, h3, p, a {
@@ -55,6 +55,6 @@ hr {
 knockout {
 background-color: #000;
 color: #FFF;
-float: center;
+margin: auto;
 text-align: center;
 }
