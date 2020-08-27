@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 background-color: #FFF;
 }
@@ -40,18 +44,19 @@ a:active  { color: orange; }
 
 hr {
   height: 4px;
-  color: #000;
   border: 4px #000;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 
 li {
-font-family: "Arial Italic", Arial;
+font-family: Italic;
 }
 
 knockout {
 background-color: #000;
 color: #FFF;
+float: center;
+text-align: center;
 }
