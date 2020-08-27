@@ -13,7 +13,7 @@ h1, h2, h3, p, a {
   font-family: Arial, sans-serif;
   color: #000;
   padding: 30, 30, 30, 30
-  line-spacing: 30px;
+  line-spacing: 60px;
 }
 
 h1 {
@@ -49,9 +49,7 @@ ol, ul {
   font-style: italic;
  }
 
-ol a {
-  color: blue;
-}
+ol a:link, ul a:link { color: blue;}
 
 hr {
   height: 2px;
