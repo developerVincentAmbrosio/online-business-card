@@ -45,6 +45,14 @@ a:visited { color: red; }
 a:hover   { color: green; }
 a:active  { color: orange; }
 
+ol, ul {
+  font-style: italic;
+ }
+
+ol a {
+  color: blue;
+}
+
 hr {
   height: 2px;
   border: 2px #000;
