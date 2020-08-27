@@ -50,10 +50,10 @@ hr {
   border: 4px #000;
   margin-top: 30px;
   margin-bottom: 30px;
-  color: #000;
+  background-color: #000;
 }
 
-knockout {
+.knockout {
 background-color: #000;
 color: #FFF;
 margin: auto;
