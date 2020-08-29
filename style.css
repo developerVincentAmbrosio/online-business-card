@@ -58,7 +58,7 @@ a {
 a:link    { color: #FFF; }
 a:visited { color: #581845; }
 a:hover   { color: #003300; }
-a:active  { color: #CC6600; }
+a:active  { color: #FFFF99; }
 
 ol, ul {
   font-style: italic;
