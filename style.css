@@ -3,32 +3,42 @@
 }
 
 body {
-  background-color: #FFF;
+  background-image: url("images/sky-and-plains.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+section {
+  align-content: center;
   width: 50%;
-  height: 100%;
-  margin: auto;
-  padding: 15x, 15x, 15x, 15x;
-}
+  margin-left: 25%;
+  margin-right: 25%;
+  }
 
 h1, h2, h3, p, a, ul, ol {
   font-family: Arial, sans-serif;
-  color: #000;
-  padding: 15x, 15x, 15x, 15x;
+  color: #000033;
+  padding: 15px, 15px, 15px, 15px;
 }
 
 h1 {
   font-size: 64px;
   text-align: center;
+  color: #FFF;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #FFFF99;
 }
 
 h2 {
   font-size: 48px;
-  text-align: center;
 }
 
 h3 {
   font-size: 36px;
-  text-align: center;
 }
 
 p, a, ol, ul {
@@ -37,38 +47,39 @@ p, a, ol, ul {
   line-height:48px;  
 }
 
+p {
+  text-align: justify;
+}
+
 a {
   text-align: center;
 }
 
 a:link    { color: #FFF; }
-a:visited { color: red; }
-a:hover   { color: green; }
-a:active  { color: orange; }
+a:visited { color: #581845; }
+a:hover   { color: #003300; }
+a:active  { color: #CC6600; }
 
 ol, ul {
   font-style: italic;
  }
-
-ol a:link, ul a:link { color: blue;}
 
 hr {
   height: 2px;
   border: 2px #000;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #000;
+  background-color: #000033;
+  width: 50%;
 }
 
 .knockout {
-  background-color: #000;
   color: #FFF;
-  margin: auto;
   text-align: center;
   padding: 10px;  
 }
 
 .knockout p {
-  color: white;
+  color: #FFF;
   text-align: center;
 }
