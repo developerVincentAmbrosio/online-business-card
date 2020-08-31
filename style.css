@@ -8,8 +8,8 @@ body {
   background-position: center;
   background-size: cover;
   }
-
-section {
+  
+section, article {
   align-content: center;
   width: 50%;
   margin-left: 25%;
@@ -58,7 +58,7 @@ a {
 a:link    { color: #FFF; }
 a:visited { color: #581845; }
 a:hover   { color: #003300; }
-a:active  { color: #FFFF99; }
+a:active  { color: #CC6600; }
 
 ol, ul {
   font-style: italic;
@@ -72,6 +72,13 @@ hr {
   background-color: #000033;
   width: 50%;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}  
+
 
 .knockout {
   color: #FFF;
